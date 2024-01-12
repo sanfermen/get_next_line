@@ -6,7 +6,13 @@
 /*   By: sandrfer <sandrfer@student.42urduliz.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/01/12 09:17:20 by sandrfer          #+#    #+#             */
-/*   Updated: 2024/01/12 09:17:23 by sandrfer         ###   ########.fr       */
+/*   Updated: 2024/01/12 10:33:43 by sandrfer         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#include "get_next_line.h"
+
+char	*get_next_line(int fd)
+{
+
+}
