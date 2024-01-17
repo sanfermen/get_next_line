@@ -6,7 +6,7 @@
 /*   By: sandrfer <sandrfer@student.42urduliz.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/01/12 09:17:20 by sandrfer          #+#    #+#             */
-/*   Updated: 2024/01/16 18:59:11 by sandrfer         ###   ########.fr       */
+/*   Updated: 2024/01/17 08:50:49 by sandrfer         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -83,7 +83,7 @@ char	*read_file(int fd, char *str)
 
 char	*get_next_line(int fd)
 {
-	static char	*str = {0};
+	static char	*str = NULL;
 	char		*line;
 
 	if (fd < 0)
